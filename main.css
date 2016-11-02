@@ -1,0 +1,130 @@
+header.main {
+    background-color: white;
+    color: black;
+}
+
+a {
+	color: black !important;
+	/* font-family: "Open Sans Light" !important; */
+	/* font-family: 'Tangerine', serif; */
+	font-family: 'Playfair Display', serif;
+    /* font-weight: 300 !important; */
+    font-size: 16px;
+}
+
+#main-nav a:hover, #nav2 a:hover {
+	background-color: black;
+	color: white !important;
+}
+
+#main-nav a.navbar-brand:hover {
+	background-color: white;
+	color: black !important;
+}
+
+#main-nav {
+    background-color: white;
+    border-bottom-style: none;
+}
+
+#main-nav a.navbar-brand {
+    margin: 0;
+}
+
+#main-nav a.navbar-brand img {
+    z-index: 999;
+    width: 60%;
+    margin-top: -20px;
+}
+
+#nav2 {
+    margin-top: 50px;
+    background-color: white;
+}
+
+#nav2 a {
+	font-family: 'Tangerine', serif;
+	font-size: 28px;
+}
+
+#nav2 ul {
+}
+
+section.main {
+/*
+	background-image: url(img/awesome/DSC_0484.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+*/
+}
+
+section.main #header {
+	/*marker-start: 20px;*/
+	/* height: 800px; */
+}
+
+section.main #myCarousel #tagLine {
+	position: absolute;
+	left: 39%;
+	top: 33%;
+	z-index: 9999;
+	text-align: center;
+}
+
+section.main #myCarousel #tagLine p {
+	color: white;
+	text-shadow: 2px 2px 8px black;
+	margin: 0;
+	padding: 0;
+	margin-left: -20px;
+	font-family: 'Tangerine', serif;
+	font-size: 80px;
+	font-weight: bolder;
+}
+
+section.main #myCarousel ol.carousel-indicators li {
+	/* display: none; */
+	font-size: 50px;
+}
+
+section #myCarousel {
+	z-index: 0;
+}
+
+section #myCarousel .carousel-inner .item {
+	width: 100%;
+	height: 500px;
+}
+
+section #myCarousel .carousel-inner .item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+	z-index: 0;
+}
+
+section #myCarousel .carousel-caption {
+	display: none;
+}
+
+footer {
+	font-size: 15px;
+	background-color: #4C575E;
+	color: white;
+}
+
+footer nav {
+	padding-top: 30px !important;
+	background-color: #4C575E !important;
+	color: white;
+	border-style: none !important;
+}
+
+footer nav a {
+	color: white !important;
+	/* font-size: 16px !important; */
+}
+
+footer nav a i {
+	font-size: 26px !important;
+}
