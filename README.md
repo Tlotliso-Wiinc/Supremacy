@@ -1,2 +1,2 @@
 # Supremacy
-An online Clothing Store Website. Sup Suckers
+An online Clothing Store Website.
